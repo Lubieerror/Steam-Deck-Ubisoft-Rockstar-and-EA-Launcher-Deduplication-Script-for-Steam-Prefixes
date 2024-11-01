@@ -32,14 +32,14 @@ def copy_savegames(src, dest):
 # Function to handle a single launcher folder in a prefix
 def process_folder(prefix_path, launcher_name, relative_folder):
     original_folder = os.path.join(prefix_path, "pfx/drive_c", relative_folder)
-    launcher_folder = os.path.join(launchers_dir, os.path.basename(relative_folder))
+    launcher_folder = os.path.join(launchers_dir, launcher_name, relative_folder)
 
     if os.path.exists(original_folder):
         if launcher_name == "Ubisoft":
             # Handle Ubisoft case: only move contents except for "savegames" folder
             savegames_folder = os.path.join(original_folder, "savegames")
             if os.path.exists(savegames_folder):
-                # Copy savegames without overwriting
+                # Copy savegames without overwriting to Launchers/Ubisoft/Ubisoft Game Launcher/savegames
                 copy_savegames(savegames_folder, os.path.join(launcher_folder, "savegames"))
             # Move rest of the Ubisoft folder and create symlink
             for item in os.listdir(original_folder):
