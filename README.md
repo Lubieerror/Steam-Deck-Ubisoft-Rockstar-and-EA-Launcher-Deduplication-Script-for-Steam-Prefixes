@@ -32,6 +32,4 @@ python3 steamlaunchermanager.py
 
 7. Now launcher folders are located in compatdata/Launchers.
 
-Script doesn't interfere with save games, they are stored in different locations.
-
 Please consider - for the script to work launchers must be installed in their default path.
