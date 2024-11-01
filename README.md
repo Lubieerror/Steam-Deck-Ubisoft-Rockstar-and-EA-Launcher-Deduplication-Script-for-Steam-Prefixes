@@ -1,4 +1,4 @@
-script that searches through game prefix folders to identify installed launchers from Ubisoft, Rockstar, and EA. It creates a shared folder with a single copy of each launcher, removes duplicate copies within each prefix, and adds a shortcut to the shared folder in each prefix.
+Script that searches through game prefix folders to identify installed launchers from Ubisoft, Rockstar, and EA. It creates a shared folder with a single copy of each launcher, removes duplicate copies within each prefix, and adds a shortcut to the shared folder in each prefix.
 
 Pros:
 
@@ -12,13 +12,13 @@ Automatic login functionality: Enjoy seamless automatic login across all games u
 
 Instructions:
 
-Go to the Steam Deck desktop.
+1. Go to the Steam Deck desktop.
 
-Download the file and save it in /home/deck/Downloads (default path).
+2. Download the file and save it in /home/deck/Downloads (default path).
 
-Open the terminal.
+3. Open the terminal.
 
-In the terminal, type:
+4. In the terminal, type:
 
 cd /home/deck/Downloads
 
@@ -30,4 +30,8 @@ chmod +x steamlaunchermanager.py
 
 python3 steamlaunchermanager.py
 
-7. Launcher folders are located in compatdata/Launchers.
+7. Now launcher folders are located in compatdata/Launchers.
+
+Script doesn't interfere with save games, they are stored in different locations.
+
+Please consider - for the script to work launchers must be installed in their default path.
