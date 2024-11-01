@@ -32,4 +32,9 @@ python3 steamlaunchermanager.py
 
 7. Now launcher folders are located in compatdata/Launchers.
 
-Please consider - run script v1.0 only once. New versions with more features soon
+---------------------------------------------
+Please consider - run script v1.0 only once.
+If you're using Ubisoft Launcher without cloud saves backup your savefiles for this launcher.
+---------------------------------------------
+
+New versions with more features coming soon
