@@ -30,6 +30,8 @@ The script checks the size of Ubisoft launcher save games before copying to avoi
 
 Instructions:
 
+[for fresh installed games make sure you opened them firstly to install all the proton files]
+
 1. Go to the Steam Deck desktop.
 
 2. Download the file and save it in /home/deck/Downloads (default path).
