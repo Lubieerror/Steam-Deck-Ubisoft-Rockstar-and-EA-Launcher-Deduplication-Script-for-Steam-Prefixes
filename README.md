@@ -16,7 +16,7 @@ Changelog for v1.1
 
 1. Multi-use Capability
 
-The script now supports multiple uses by skipping launcher folders that already have symlinks in place. This prevents redundant operations and speeds up processing. Please be advised, version 1.0 is one use only.
+The script now supports multiple uses by skipping launcher folders that already have symlinks in place. This prevents redundant operations and speeds up processing. Please be advised, version 1.0 was one use only.
 
 2. Automatic Copying and Merging of Save Games
 
