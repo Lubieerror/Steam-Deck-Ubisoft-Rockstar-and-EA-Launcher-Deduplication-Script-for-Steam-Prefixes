@@ -37,7 +37,9 @@ Instructions:
 3. Open the terminal and enter the following commands:
 
 cd /home/deck/Downloads
+
 chmod +x steamlaunchermanager.py
+
 python3 steamlaunchermanager.py
 
 4. After running the script, you can find the shared launchers in compatdata/Launchers.
